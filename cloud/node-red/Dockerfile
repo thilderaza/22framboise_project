@@ -7,7 +7,9 @@ USER node-red
 RUN npm install utf-8-validate \
     && npm install bufferutil \
     && npm install node-red-dashboard \
-    && npm install node-red-node-ui-table
+    && npm install node-red-node-ui-table \
+    && npm install node-red-contrib-ui-led \
+    && npm install node-red-contrib-web-worldmap
 
 # Démarrer Node-RED
 CMD ["npm", "start", "--", "--userDir", "/data"]
