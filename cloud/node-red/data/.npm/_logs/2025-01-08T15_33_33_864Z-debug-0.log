@@ -1,0 +1,406 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/.npmrc
+5 silly config load:file:/usr/src/node-red/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm remove node-red-dashboard
+8 verbose argv "remove" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "node-red-dashboard"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2025-01-08T15_33_33_864Z-
+10 verbose logfile /data/.npm/_logs/2025-01-08T15_33_33_864Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 warn old lockfile
+13 warn old lockfile The package-lock.json file was created with an old version of npm,
+13 warn old lockfile so supplemental metadata must be fetched from the registry.
+13 warn old lockfile
+13 warn old lockfile This is a one-time fix-up, please be patient...
+13 warn old lockfile
+14 silly inflate node_modules/@influxdata/influxdb-client
+15 silly packumentCache corgi:https://registry.npmjs.org/@influxdata%2finfluxdb-client cache-miss
+16 silly inflate node_modules/@socket.io/component-emitter
+17 silly packumentCache corgi:https://registry.npmjs.org/@socket.io%2fcomponent-emitter cache-miss
+18 silly inflate node_modules/@types/cookie
+19 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcookie cache-miss
+20 silly inflate node_modules/@types/cors
+21 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors cache-miss
+22 silly inflate node_modules/@types/node
+23 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode cache-miss
+24 silly inflate node_modules/accepts
+25 silly packumentCache corgi:https://registry.npmjs.org/accepts cache-miss
+26 silly inflate node_modules/accepts/node_modules/negotiator
+27 silly packumentCache corgi:https://registry.npmjs.org/negotiator cache-miss
+28 silly inflate node_modules/base64id
+29 silly packumentCache corgi:https://registry.npmjs.org/base64id cache-miss
+30 silly inflate node_modules/bytes
+31 silly packumentCache corgi:https://registry.npmjs.org/bytes cache-miss
+32 silly inflate node_modules/compressible
+33 silly packumentCache corgi:https://registry.npmjs.org/compressible cache-miss
+34 silly inflate node_modules/compression
+35 silly packumentCache corgi:https://registry.npmjs.org/compression cache-miss
+36 silly inflate node_modules/cookie
+37 silly packumentCache corgi:https://registry.npmjs.org/cookie cache-miss
+38 silly inflate node_modules/cors
+39 silly packumentCache corgi:https://registry.npmjs.org/cors cache-miss
+40 silly inflate node_modules/debug
+41 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+42 silly inflate node_modules/depd
+43 silly packumentCache corgi:https://registry.npmjs.org/depd cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@socket.io%2fcomponent-emitter 1020ms (cache miss)
+45 silly packumentCache corgi:https://registry.npmjs.org/@socket.io%2fcomponent-emitter set size:undefined disposed:false
+46 silly inflate node_modules/destroy
+47 silly packumentCache corgi:https://registry.npmjs.org/destroy cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/base64id 1042ms (cache miss)
+49 silly packumentCache corgi:https://registry.npmjs.org/base64id set size:undefined disposed:false
+50 silly inflate node_modules/ee-first
+51 silly packumentCache corgi:https://registry.npmjs.org/ee-first cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/compressible 1082ms (cache miss)
+53 silly packumentCache corgi:https://registry.npmjs.org/compressible set size:undefined disposed:false
+54 silly inflate node_modules/encodeurl
+55 silly packumentCache corgi:https://registry.npmjs.org/encodeurl cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/debug 1084ms (cache miss)
+57 silly packumentCache corgi:https://registry.npmjs.org/debug set size:undefined disposed:false
+58 silly inflate node_modules/engine.io
+59 silly packumentCache corgi:https://registry.npmjs.org/engine.io cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/bytes 1122ms (cache miss)
+61 silly packumentCache corgi:https://registry.npmjs.org/bytes set size:undefined disposed:false
+62 silly inflate node_modules/engine.io/node_modules/debug
+63 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/accepts 1124ms (cache miss)
+65 silly packumentCache corgi:https://registry.npmjs.org/accepts set size:undefined disposed:false
+66 silly inflate node_modules/engine.io/node_modules/ms
+67 silly packumentCache corgi:https://registry.npmjs.org/ms cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/cookie 1124ms (cache miss)
+69 silly packumentCache corgi:https://registry.npmjs.org/cookie set size:undefined disposed:false
+70 silly inflate node_modules/engine.io-parser
+71 silly packumentCache corgi:https://registry.npmjs.org/engine.io-parser cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/debug 5ms (cache hit)
+73 silly packumentCache corgi:https://registry.npmjs.org/debug set size:73827 disposed:false
+74 silly inflate node_modules/escape-html
+75 silly packumentCache corgi:https://registry.npmjs.org/escape-html cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/encodeurl 70ms (cache miss)
+77 silly packumentCache corgi:https://registry.npmjs.org/encodeurl set size:undefined disposed:false
+78 silly inflate node_modules/etag
+79 silly packumentCache corgi:https://registry.npmjs.org/etag cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/ee-first 110ms (cache miss)
+81 silly packumentCache corgi:https://registry.npmjs.org/ee-first set size:undefined disposed:false
+82 silly inflate node_modules/fresh
+83 silly packumentCache corgi:https://registry.npmjs.org/fresh cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/destroy 134ms (cache miss)
+85 silly packumentCache corgi:https://registry.npmjs.org/destroy set size:undefined disposed:false
+86 silly inflate node_modules/gridstack
+87 silly packumentCache corgi:https://registry.npmjs.org/gridstack cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/escape-html 117ms (cache miss)
+89 silly packumentCache corgi:https://registry.npmjs.org/escape-html set size:undefined disposed:false
+90 silly inflate node_modules/http-errors
+91 silly packumentCache corgi:https://registry.npmjs.org/http-errors cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/engine.io 501ms (cache miss)
+93 silly packumentCache corgi:https://registry.npmjs.org/engine.io set size:undefined disposed:false
+94 silly inflate node_modules/influx
+95 silly packumentCache corgi:https://registry.npmjs.org/influx cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/etag 435ms (cache miss)
+97 silly packumentCache corgi:https://registry.npmjs.org/etag set size:undefined disposed:false
+98 silly inflate node_modules/inherits
+99 silly packumentCache corgi:https://registry.npmjs.org/inherits cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/fresh 435ms (cache miss)
+101 silly packumentCache corgi:https://registry.npmjs.org/fresh set size:undefined disposed:false
+102 silly inflate node_modules/jquery
+103 silly packumentCache corgi:https://registry.npmjs.org/jquery cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/ms 467ms (cache miss)
+105 silly packumentCache corgi:https://registry.npmjs.org/ms set size:undefined disposed:false
+106 silly inflate node_modules/lodash
+107 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/engine.io-parser 467ms (cache miss)
+109 silly packumentCache corgi:https://registry.npmjs.org/engine.io-parser set size:undefined disposed:false
+110 silly inflate node_modules/mime
+111 silly packumentCache corgi:https://registry.npmjs.org/mime cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/gridstack 846ms (cache miss)
+113 silly packumentCache corgi:https://registry.npmjs.org/gridstack set size:undefined disposed:false
+114 silly inflate node_modules/mime-db
+115 silly packumentCache corgi:https://registry.npmjs.org/mime-db cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/inherits 440ms (cache miss)
+117 silly packumentCache corgi:https://registry.npmjs.org/inherits set size:undefined disposed:false
+118 silly inflate node_modules/mime-types
+119 silly packumentCache corgi:https://registry.npmjs.org/mime-types cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/mime 605ms (cache miss)
+121 silly packumentCache corgi:https://registry.npmjs.org/mime set size:undefined disposed:false
+122 silly inflate node_modules/mime-types/node_modules/mime-db
+123 silly packumentCache corgi:https://registry.npmjs.org/mime-db cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/lodash 1163ms (cache miss)
+125 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+126 silly inflate node_modules/ms
+127 silly packumentCache corgi:https://registry.npmjs.org/ms cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/ms 1ms (cache hit)
+129 silly packumentCache corgi:https://registry.npmjs.org/ms set size:21167 disposed:false
+130 silly inflate node_modules/negotiator
+131 silly packumentCache corgi:https://registry.npmjs.org/negotiator cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/jquery 1255ms (cache miss)
+133 silly packumentCache corgi:https://registry.npmjs.org/jquery set size:undefined disposed:false
+134 silly inflate node_modules/node-red-contrib-influxdb
+135 silly packumentCache corgi:https://registry.npmjs.org/node-red-contrib-influxdb cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/http-errors 1686ms (cache miss)
+137 silly packumentCache corgi:https://registry.npmjs.org/http-errors set size:undefined disposed:false
+138 silly inflate node_modules/node-red-dashboard
+139 silly packumentCache corgi:https://registry.npmjs.org/node-red-dashboard cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/mime-db 1094ms (cache miss)
+141 silly packumentCache corgi:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+142 silly inflate node_modules/object-assign
+143 silly packumentCache corgi:https://registry.npmjs.org/object-assign cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/negotiator 832ms (cache miss)
+145 silly packumentCache corgi:https://registry.npmjs.org/negotiator set size:undefined disposed:false
+146 silly inflate node_modules/on-finished
+147 silly packumentCache corgi:https://registry.npmjs.org/on-finished cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/object-assign 854ms (cache miss)
+149 silly packumentCache corgi:https://registry.npmjs.org/object-assign set size:undefined disposed:false
+150 silly inflate node_modules/on-headers
+151 silly packumentCache corgi:https://registry.npmjs.org/on-headers cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/depd 3976ms (cache miss)
+153 silly packumentCache corgi:https://registry.npmjs.org/depd set size:undefined disposed:false
+154 silly inflate node_modules/parseurl
+155 silly packumentCache corgi:https://registry.npmjs.org/parseurl cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/on-finished 501ms (cache miss)
+157 silly packumentCache corgi:https://registry.npmjs.org/on-finished set size:undefined disposed:false
+158 silly inflate node_modules/range-parser
+159 silly packumentCache corgi:https://registry.npmjs.org/range-parser cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/cors 4107ms (cache miss)
+161 silly packumentCache corgi:https://registry.npmjs.org/cors set size:undefined disposed:false
+162 silly inflate node_modules/safe-buffer
+163 silly packumentCache corgi:https://registry.npmjs.org/safe-buffer cache-miss
+164 http fetch GET 200 https://registry.npmjs.org/on-headers 166ms (cache miss)
+165 silly packumentCache corgi:https://registry.npmjs.org/on-headers set size:undefined disposed:false
+166 silly inflate node_modules/send
+167 silly packumentCache corgi:https://registry.npmjs.org/send cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/negotiator 4119ms (cache miss)
+169 silly packumentCache corgi:https://registry.npmjs.org/negotiator set size:undefined disposed:false
+170 silly inflate node_modules/send/node_modules/encodeurl
+171 silly packumentCache corgi:https://registry.npmjs.org/encodeurl cache-miss
+172 http fetch GET 200 https://registry.npmjs.org/parseurl 144ms (cache miss)
+173 silly packumentCache corgi:https://registry.npmjs.org/parseurl set size:undefined disposed:false
+174 silly inflate node_modules/send/node_modules/ms
+175 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+176 silly inflate node_modules/serve-static
+177 silly packumentCache corgi:https://registry.npmjs.org/serve-static cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/encodeurl 1ms (cache hit)
+179 silly packumentCache corgi:https://registry.npmjs.org/encodeurl set size:2943 disposed:false
+180 silly inflate node_modules/setprototypeof
+181 silly packumentCache corgi:https://registry.npmjs.org/setprototypeof cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/@types%2fcookie 4222ms (cache miss)
+183 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcookie set size:undefined disposed:false
+184 silly inflate node_modules/socket.io
+185 silly packumentCache corgi:https://registry.npmjs.org/socket.io cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 4223ms (cache miss)
+187 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors set size:undefined disposed:false
+188 silly inflate node_modules/socket.io/node_modules/debug
+189 silly packumentCache corgi:https://registry.npmjs.org/debug cache-hit
+190 silly inflate node_modules/socket.io/node_modules/ms
+191 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+192 silly inflate node_modules/socket.io-adapter
+193 silly packumentCache corgi:https://registry.npmjs.org/socket.io-adapter cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/send 145ms (cache miss)
+195 silly packumentCache corgi:https://registry.npmjs.org/send set size:undefined disposed:false
+196 silly inflate node_modules/socket.io-adapter/node_modules/debug
+197 silly packumentCache corgi:https://registry.npmjs.org/debug cache-hit
+198 silly inflate node_modules/socket.io-adapter/node_modules/ms
+199 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+200 silly inflate node_modules/socket.io-parser
+201 silly packumentCache corgi:https://registry.npmjs.org/socket.io-parser cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/safe-buffer 283ms (cache miss)
+203 silly packumentCache corgi:https://registry.npmjs.org/safe-buffer set size:undefined disposed:false
+204 silly inflate node_modules/socket.io-parser/node_modules/debug
+205 silly packumentCache corgi:https://registry.npmjs.org/debug cache-hit
+206 silly inflate node_modules/socket.io-parser/node_modules/ms
+207 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+208 silly inflate node_modules/statuses
+209 silly packumentCache corgi:https://registry.npmjs.org/statuses cache-miss
+210 http fetch GET 200 https://registry.npmjs.org/statuses 481ms (cache miss)
+211 silly packumentCache corgi:https://registry.npmjs.org/statuses set size:undefined disposed:false
+212 silly inflate node_modules/toidentifier
+213 silly packumentCache corgi:https://registry.npmjs.org/toidentifier cache-miss
+214 http fetch GET 200 https://registry.npmjs.org/compression 4948ms (cache miss)
+215 silly packumentCache corgi:https://registry.npmjs.org/compression set size:undefined disposed:false
+216 silly inflate node_modules/undici-types
+217 silly packumentCache corgi:https://registry.npmjs.org/undici-types cache-miss
+218 http fetch GET 200 https://registry.npmjs.org/toidentifier 117ms (cache miss)
+219 silly packumentCache corgi:https://registry.npmjs.org/toidentifier set size:undefined disposed:false
+220 silly inflate node_modules/vary
+221 silly packumentCache corgi:https://registry.npmjs.org/vary cache-miss
+222 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 5040ms (cache miss)
+223 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+224 silly inflate node_modules/ws
+225 silly packumentCache corgi:https://registry.npmjs.org/ws cache-miss
+226 http fetch GET 200 https://registry.npmjs.org/undici-types 100ms (cache miss)
+227 silly packumentCache corgi:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+228 http fetch GET 200 https://registry.npmjs.org/vary 64ms (cache miss)
+229 silly packumentCache corgi:https://registry.npmjs.org/vary set size:undefined disposed:false
+230 http fetch GET 200 https://registry.npmjs.org/ws 75ms (cache miss)
+231 silly packumentCache corgi:https://registry.npmjs.org/ws set size:undefined disposed:false
+232 http fetch GET 200 https://registry.npmjs.org/influx 3579ms (cache miss)
+233 silly packumentCache corgi:https://registry.npmjs.org/influx set size:undefined disposed:false
+234 http fetch GET 200 https://registry.npmjs.org/socket.io-adapter 1011ms (cache miss)
+235 silly packumentCache corgi:https://registry.npmjs.org/socket.io-adapter set size:undefined disposed:false
+236 http fetch GET 200 https://registry.npmjs.org/mime-db 4525ms (cache miss)
+237 silly packumentCache corgi:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+238 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-influxdb 3879ms (cache miss)
+239 silly packumentCache corgi:https://registry.npmjs.org/node-red-contrib-influxdb set size:undefined disposed:false
+240 http fetch GET 200 https://registry.npmjs.org/range-parser 2651ms (cache miss)
+241 silly packumentCache corgi:https://registry.npmjs.org/range-parser set size:undefined disposed:false
+242 http fetch GET 200 https://registry.npmjs.org/serve-static 2627ms (cache miss)
+243 silly packumentCache corgi:https://registry.npmjs.org/serve-static set size:undefined disposed:false
+244 http fetch GET 200 https://registry.npmjs.org/node-red-dashboard 3885ms (cache miss)
+245 silly packumentCache corgi:https://registry.npmjs.org/node-red-dashboard set size:undefined disposed:false
+246 http fetch GET 200 https://registry.npmjs.org/socket.io-parser 2587ms (cache miss)
+247 silly packumentCache corgi:https://registry.npmjs.org/socket.io-parser set size:undefined disposed:false
+248 http fetch GET 200 https://registry.npmjs.org/socket.io 2908ms (cache miss)
+249 silly packumentCache corgi:https://registry.npmjs.org/socket.io set size:undefined disposed:false
+250 http fetch GET 200 https://registry.npmjs.org/setprototypeof 3150ms (cache miss)
+251 silly packumentCache corgi:https://registry.npmjs.org/setprototypeof set size:undefined disposed:false
+252 http fetch GET 200 https://registry.npmjs.org/mime-types 6826ms (cache miss)
+253 silly packumentCache corgi:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+254 http fetch GET 200 https://registry.npmjs.org/@influxdata%2finfluxdb-client 9271ms (cache miss)
+255 silly packumentCache corgi:https://registry.npmjs.org/@influxdata%2finfluxdb-client set size:undefined disposed:false
+256 silly idealTree buildDeps
+257 silly reify mark retired [ '/data/node_modules/accepts' ]
+258 silly reify mark retired [ '/data/node_modules/base64id' ]
+259 silly reify mark retired [ '/data/node_modules/bytes' ]
+260 silly reify mark retired [ '/data/node_modules/compressible' ]
+261 silly reify mark retired [ '/data/node_modules/compression' ]
+262 silly reify mark retired [ '/data/node_modules/cookie' ]
+263 silly reify mark retired [ '/data/node_modules/cors' ]
+264 silly reify mark retired [ '/data/node_modules/debug' ]
+265 silly reify mark retired [ '/data/node_modules/depd' ]
+266 silly reify mark retired [ '/data/node_modules/destroy' ]
+267 silly reify mark retired [ '/data/node_modules/ee-first' ]
+268 silly reify mark retired [ '/data/node_modules/encodeurl' ]
+269 silly reify mark retired [ '/data/node_modules/engine.io' ]
+270 silly reify mark retired [ '/data/node_modules/engine.io-parser' ]
+271 silly reify mark retired [ '/data/node_modules/escape-html' ]
+272 silly reify mark retired [ '/data/node_modules/etag' ]
+273 silly reify mark retired [ '/data/node_modules/fresh' ]
+274 silly reify mark retired [ '/data/node_modules/gridstack' ]
+275 silly reify mark retired [ '/data/node_modules/http-errors' ]
+276 silly reify mark retired [ '/data/node_modules/inherits' ]
+277 silly reify mark retired [ '/data/node_modules/jquery' ]
+278 silly reify mark retired [ '/data/node_modules/mime', '/data/node_modules/.bin/mime' ]
+279 silly reify mark retired [ '/data/node_modules/mime-db' ]
+280 silly reify mark retired [ '/data/node_modules/mime-types' ]
+281 silly reify mark retired [ '/data/node_modules/ms' ]
+282 silly reify mark retired [ '/data/node_modules/negotiator' ]
+283 silly reify mark retired [ '/data/node_modules/node-red-dashboard' ]
+284 silly reify mark retired [ '/data/node_modules/object-assign' ]
+285 silly reify mark retired [ '/data/node_modules/on-finished' ]
+286 silly reify mark retired [ '/data/node_modules/on-headers' ]
+287 silly reify mark retired [ '/data/node_modules/parseurl' ]
+288 silly reify mark retired [ '/data/node_modules/range-parser' ]
+289 silly reify mark retired [ '/data/node_modules/safe-buffer' ]
+290 silly reify mark retired [ '/data/node_modules/send' ]
+291 silly reify mark retired [ '/data/node_modules/serve-static' ]
+292 silly reify mark retired [ '/data/node_modules/setprototypeof' ]
+293 silly reify mark retired [ '/data/node_modules/socket.io-parser' ]
+294 silly reify mark retired [ '/data/node_modules/socket.io' ]
+295 silly reify mark retired [ '/data/node_modules/toidentifier' ]
+296 silly reify mark retired [ '/data/node_modules/undici-types' ]
+297 silly reify mark retired [ '/data/node_modules/vary' ]
+298 silly reify mark retired [ '/data/node_modules/ws' ]
+299 silly reify mark retired [ '/data/node_modules/@socket.io/component-emitter' ]
+300 silly reify mark retired [ '/data/node_modules/@types/cookie' ]
+301 silly reify mark retired [ '/data/node_modules/@types/cors' ]
+302 silly reify mark retired [ '/data/node_modules/@types/node' ]
+303 silly reify mark retired [ '/data/node_modules/socket.io-adapter' ]
+304 silly reify mark retired [ '/data/node_modules/statuses' ]
+305 silly reify moves {
+305 silly reify   '/data/node_modules/accepts': '/data/node_modules/.accepts-wBc4iRst',
+305 silly reify   '/data/node_modules/base64id': '/data/node_modules/.base64id-fDEbPIUd',
+305 silly reify   '/data/node_modules/bytes': '/data/node_modules/.bytes-M6S4GHrH',
+305 silly reify   '/data/node_modules/compressible': '/data/node_modules/.compressible-60RmNxZN',
+305 silly reify   '/data/node_modules/compression': '/data/node_modules/.compression-dOvaEpz8',
+305 silly reify   '/data/node_modules/cookie': '/data/node_modules/.cookie-w3IRwdDP',
+305 silly reify   '/data/node_modules/cors': '/data/node_modules/.cors-e19gZQ79',
+305 silly reify   '/data/node_modules/debug': '/data/node_modules/.debug-oMLg6EQG',
+305 silly reify   '/data/node_modules/depd': '/data/node_modules/.depd-zkDgBuSy',
+305 silly reify   '/data/node_modules/destroy': '/data/node_modules/.destroy-DaaHXRIJ',
+305 silly reify   '/data/node_modules/ee-first': '/data/node_modules/.ee-first-aF2jQpGN',
+305 silly reify   '/data/node_modules/encodeurl': '/data/node_modules/.encodeurl-TqVuQPlc',
+305 silly reify   '/data/node_modules/engine.io': '/data/node_modules/.engine.io-A0yD1XTu',
+305 silly reify   '/data/node_modules/engine.io-parser': '/data/node_modules/.engine.io-parser-FXeX7bsL',
+305 silly reify   '/data/node_modules/escape-html': '/data/node_modules/.escape-html-bkh4Mzs5',
+305 silly reify   '/data/node_modules/etag': '/data/node_modules/.etag-8npKUd2v',
+305 silly reify   '/data/node_modules/fresh': '/data/node_modules/.fresh-RJOrLJey',
+305 silly reify   '/data/node_modules/gridstack': '/data/node_modules/.gridstack-RXsWsjrW',
+305 silly reify   '/data/node_modules/http-errors': '/data/node_modules/.http-errors-bq0rSNtB',
+305 silly reify   '/data/node_modules/inherits': '/data/node_modules/.inherits-IFktovJP',
+305 silly reify   '/data/node_modules/jquery': '/data/node_modules/.jquery-KXcqBnmR',
+305 silly reify   '/data/node_modules/mime': '/data/node_modules/.mime-8INyOFlQ',
+305 silly reify   '/data/node_modules/.bin/mime': '/data/node_modules/.bin/.mime-LWvk3NlW',
+305 silly reify   '/data/node_modules/mime-db': '/data/node_modules/.mime-db-Bc7q22S9',
+305 silly reify   '/data/node_modules/mime-types': '/data/node_modules/.mime-types-Cid6PBHG',
+305 silly reify   '/data/node_modules/ms': '/data/node_modules/.ms-g1irmAFT',
+305 silly reify   '/data/node_modules/negotiator': '/data/node_modules/.negotiator-k7G8Mi8G',
+305 silly reify   '/data/node_modules/node-red-dashboard': '/data/node_modules/.node-red-dashboard-nLdcNL8A',
+305 silly reify   '/data/node_modules/object-assign': '/data/node_modules/.object-assign-NdxoQHnr',
+305 silly reify   '/data/node_modules/on-finished': '/data/node_modules/.on-finished-mlalqELa',
+305 silly reify   '/data/node_modules/on-headers': '/data/node_modules/.on-headers-RRm6SgPY',
+305 silly reify   '/data/node_modules/parseurl': '/data/node_modules/.parseurl-GvgWE43y',
+305 silly reify   '/data/node_modules/range-parser': '/data/node_modules/.range-parser-aUXfT6TX',
+305 silly reify   '/data/node_modules/safe-buffer': '/data/node_modules/.safe-buffer-RhdIW9jy',
+305 silly reify   '/data/node_modules/send': '/data/node_modules/.send-kLk4ic9X',
+305 silly reify   '/data/node_modules/serve-static': '/data/node_modules/.serve-static-e5j26kZG',
+305 silly reify   '/data/node_modules/setprototypeof': '/data/node_modules/.setprototypeof-AMKn7p8t',
+305 silly reify   '/data/node_modules/socket.io-parser': '/data/node_modules/.socket.io-parser-fLCn01HF',
+305 silly reify   '/data/node_modules/socket.io': '/data/node_modules/.socket.io-BXSdiCZL',
+305 silly reify   '/data/node_modules/toidentifier': '/data/node_modules/.toidentifier-SvGyt6Rq',
+305 silly reify   '/data/node_modules/undici-types': '/data/node_modules/.undici-types-N38lcTrn',
+305 silly reify   '/data/node_modules/vary': '/data/node_modules/.vary-hU1J2ePp',
+305 silly reify   '/data/node_modules/ws': '/data/node_modules/.ws-B5PabsSn',
+305 silly reify   '/data/node_modules/@socket.io/component-emitter': '/data/node_modules/@socket.io/.component-emitter-F8WSV040',
+305 silly reify   '/data/node_modules/@types/cookie': '/data/node_modules/@types/.cookie-rPlp9sd9',
+305 silly reify   '/data/node_modules/@types/cors': '/data/node_modules/@types/.cors-c84k8yab',
+305 silly reify   '/data/node_modules/@types/node': '/data/node_modules/@types/.node-hhfaj4BM',
+305 silly reify   '/data/node_modules/socket.io-adapter': '/data/node_modules/.socket.io-adapter-pXd1DJl7',
+305 silly reify   '/data/node_modules/statuses': '/data/node_modules/.statuses-LMf9VOPu'
+305 silly reify }
+306 verbose stack Error: EACCES: permission denied, rename '/data/node_modules/accepts' -> '/data/node_modules/.accepts-wBc4iRst'
+306 verbose stack     at async Object.rename (node:internal/fs/promises:783:10)
+306 verbose stack     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+306 verbose stack     at async Promise.allSettled (index 0)
+306 verbose stack     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+306 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+306 verbose stack     at async Uninstall.exec (/usr/local/lib/node_modules/npm/lib/commands/uninstall.js:51:5)
+306 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+306 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+307 error code EACCES
+308 error syscall rename
+309 error path /data/node_modules/accepts
+310 error dest /data/node_modules/.accepts-wBc4iRst
+311 error errno -13
+312 error Error: EACCES: permission denied, rename '/data/node_modules/accepts' -> '/data/node_modules/.accepts-wBc4iRst'
+312 error     at async Object.rename (node:internal/fs/promises:783:10)
+312 error     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+312 error     at async Promise.allSettled (index 0)
+312 error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+312 error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+312 error     at async Uninstall.exec (/usr/local/lib/node_modules/npm/lib/commands/uninstall.js:51:5)
+312 error     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+312 error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+312 error   errno: -13,
+312 error   code: 'EACCES',
+312 error   syscall: 'rename',
+312 error   path: '/data/node_modules/accepts',
+312 error   dest: '/data/node_modules/.accepts-wBc4iRst'
+312 error }
+313 error
+313 error The operation was rejected by your operating system.
+313 error It is likely you do not have the permissions to access this file as the current user
+313 error
+313 error If you believe this might be a permissions issue, please double-check the
+313 error permissions of the file and its containing directories, or try running
+313 error the command again as root/Administrator.
+314 silly unfinished npm timer reify 1736350414064
+315 silly unfinished npm timer reify:retireShallow 1736350423365
+316 verbose cwd /data
+317 verbose os Linux 6.6.63
+318 verbose node v22.12.0
+319 verbose npm  v10.9.0
+320 verbose exit -13
+321 verbose code -13
+322 error A complete log of this run can be found in: /data/.npm/_logs/2025-01-08T15_33_33_864Z-debug-0.log
