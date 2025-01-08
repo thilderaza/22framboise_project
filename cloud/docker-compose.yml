@@ -1,0 +1,33 @@
+# version: '3'
+services:
+
+  influxdb:
+    image: 22framboise:influxdb
+    build:
+      context: ./influx-db
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./influx-db/data:/home/influxdb/.influxdbv2
+      - ./influx-db/influxdb.conf:/etc/influxdb/influxdb.conf
+    # expose:
+    #   - 8086  # Exposé au réseau docker uniquement
+    ports:
+      - 10002:8086 # Pour debug et setup initial
+    networks:
+      - 22framboise_network
+
+  node-red:
+    image: 22framboise:node-red
+    build:
+      context: ./node-red
+      dockerfile: ./Dockerfile
+    user: node-red
+    volumes:
+      - ./node-red/data:/data   # Monter le dossier node-red/data sur le container
+    ports:
+      - 10001:1880
+    networks:
+      - 22framboise_network
+    
+networks:
+  22framboise_network:
