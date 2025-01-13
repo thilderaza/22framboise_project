@@ -7,3 +7,8 @@
 - node-red-contrib-ui-led
 - node-red-dashboard
 - node-red-node-ui-table
+
+Command : 
+
+pip install python-socketio
+pip install eventlet  # Serveur basé sur Eventlet
