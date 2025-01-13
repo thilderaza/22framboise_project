@@ -11,6 +11,15 @@
                 "view-show-welcome-tours": true,
                 "view-store-position": false,
                 "view-store-zoom": false
+            },
+            "tours": {
+                "welcome": "4.0.8"
+            },
+            "dialog": {
+                "export": {
+                    "pretty": false,
+                    "json-view": false
+                }
             }
         }
     }

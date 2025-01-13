@@ -748,5 +748,29 @@
                 "file": "/usr/src/node-red/node_modules/node-red-contrib-web-worldmap/worldmap.js"
             }
         }
+    },
+    "node-red-contrib-socketio": {
+        "name": "node-red-contrib-socketio",
+        "version": "1.1.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "socket-io": {
+                "name": "socket-io",
+                "types": [
+                    "socketio-config",
+                    "socketio-in",
+                    "socketio-out",
+                    "socketio-join",
+                    "socketio-leave",
+                    "socketio-rooms"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-socketio",
+                "file": "/data/node_modules/node-red-contrib-socketio/socketio.js"
+            }
+        }
     }
 }

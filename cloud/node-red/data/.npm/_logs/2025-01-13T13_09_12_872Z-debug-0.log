@@ -1,0 +1,285 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/.npmrc
+5 silly config load:file:/usr/src/node-red/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install node-red-contrib-socketio@1.1.0
+8 verbose argv "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix" "~" "--omit" "dev" "--engine-strict" "node-red-contrib-socketio@1.1.0"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2025-01-13T13_09_12_872Z-
+10 verbose logfile /data/.npm/_logs/2025-01-13T13_09_12_872Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 warn old lockfile
+13 warn old lockfile The package-lock.json file was created with an old version of npm,
+13 warn old lockfile so supplemental metadata must be fetched from the registry.
+13 warn old lockfile
+13 warn old lockfile This is a one-time fix-up, please be patient...
+13 warn old lockfile
+14 silly inflate node_modules/@influxdata/influxdb-client
+15 silly packumentCache corgi:https://registry.npmjs.org/@influxdata%2finfluxdb-client cache-miss
+16 silly inflate node_modules/@socket.io/component-emitter
+17 silly packumentCache corgi:https://registry.npmjs.org/@socket.io%2fcomponent-emitter cache-miss
+18 silly inflate node_modules/@types/cookie
+19 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcookie cache-miss
+20 silly inflate node_modules/@types/cors
+21 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors cache-miss
+22 silly inflate node_modules/@types/node
+23 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode cache-miss
+24 silly inflate node_modules/accepts
+25 silly packumentCache corgi:https://registry.npmjs.org/accepts cache-miss
+26 silly inflate node_modules/accepts/node_modules/negotiator
+27 silly packumentCache corgi:https://registry.npmjs.org/negotiator cache-miss
+28 silly inflate node_modules/base64id
+29 silly packumentCache corgi:https://registry.npmjs.org/base64id cache-miss
+30 silly inflate node_modules/bytes
+31 silly packumentCache corgi:https://registry.npmjs.org/bytes cache-miss
+32 silly inflate node_modules/compressible
+33 silly packumentCache corgi:https://registry.npmjs.org/compressible cache-miss
+34 silly inflate node_modules/compression
+35 silly packumentCache corgi:https://registry.npmjs.org/compression cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/base64id 1067ms (cache updated)
+37 silly packumentCache corgi:https://registry.npmjs.org/base64id set size:undefined disposed:false
+38 silly inflate node_modules/cookie
+39 silly packumentCache corgi:https://registry.npmjs.org/cookie cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@socket.io%2fcomponent-emitter 1075ms (cache updated)
+41 silly packumentCache corgi:https://registry.npmjs.org/@socket.io%2fcomponent-emitter set size:undefined disposed:false
+42 silly inflate node_modules/cors
+43 silly packumentCache corgi:https://registry.npmjs.org/cors cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/bytes 1074ms (cache updated)
+45 silly packumentCache corgi:https://registry.npmjs.org/bytes set size:undefined disposed:false
+46 silly inflate node_modules/debug
+47 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/negotiator 1078ms (cache updated)
+49 silly packumentCache corgi:https://registry.npmjs.org/negotiator set size:undefined disposed:false
+50 silly inflate node_modules/depd
+51 silly packumentCache corgi:https://registry.npmjs.org/depd cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/accepts 1085ms (cache updated)
+53 silly packumentCache corgi:https://registry.npmjs.org/accepts set size:undefined disposed:false
+54 silly inflate node_modules/destroy
+55 silly packumentCache corgi:https://registry.npmjs.org/destroy cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/@types%2fcookie 1091ms (cache updated)
+57 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcookie set size:undefined disposed:false
+58 silly inflate node_modules/ee-first
+59 silly packumentCache corgi:https://registry.npmjs.org/ee-first cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/compression 1089ms (cache updated)
+61 silly packumentCache corgi:https://registry.npmjs.org/compression set size:undefined disposed:false
+62 silly inflate node_modules/encodeurl
+63 silly packumentCache corgi:https://registry.npmjs.org/encodeurl cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/compressible 1096ms (cache updated)
+65 silly packumentCache corgi:https://registry.npmjs.org/compressible set size:undefined disposed:false
+66 silly inflate node_modules/engine.io
+67 silly packumentCache corgi:https://registry.npmjs.org/engine.io cache-miss
+68 http fetch GET 200 https://registry.npmjs.org/@types%2fcors 1107ms (cache updated)
+69 silly packumentCache corgi:https://registry.npmjs.org/@types%2fcors set size:undefined disposed:false
+70 silly inflate node_modules/engine.io/node_modules/debug
+71 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/ee-first 261ms (cache updated)
+73 silly packumentCache corgi:https://registry.npmjs.org/ee-first set size:undefined disposed:false
+74 silly inflate node_modules/engine.io/node_modules/ms
+75 silly packumentCache corgi:https://registry.npmjs.org/ms cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/destroy 272ms (cache updated)
+77 silly packumentCache corgi:https://registry.npmjs.org/destroy set size:undefined disposed:false
+78 silly inflate node_modules/engine.io-parser
+79 silly packumentCache corgi:https://registry.npmjs.org/engine.io-parser cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/encodeurl 268ms (cache updated)
+81 silly packumentCache corgi:https://registry.npmjs.org/encodeurl set size:undefined disposed:false
+82 silly inflate node_modules/escape-html
+83 silly packumentCache corgi:https://registry.npmjs.org/escape-html cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/cors 296ms (cache updated)
+85 silly packumentCache corgi:https://registry.npmjs.org/cors set size:undefined disposed:false
+86 silly inflate node_modules/etag
+87 silly packumentCache corgi:https://registry.npmjs.org/etag cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/depd 295ms (cache updated)
+89 silly packumentCache corgi:https://registry.npmjs.org/depd set size:undefined disposed:false
+90 silly inflate node_modules/fresh
+91 silly packumentCache corgi:https://registry.npmjs.org/fresh cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/cookie 307ms (cache updated)
+93 silly packumentCache corgi:https://registry.npmjs.org/cookie set size:undefined disposed:false
+94 silly inflate node_modules/gridstack
+95 silly packumentCache corgi:https://registry.npmjs.org/gridstack cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/debug 290ms (cache updated)
+97 silly packumentCache corgi:https://registry.npmjs.org/debug set size:undefined disposed:false
+98 silly inflate node_modules/http-errors
+99 silly packumentCache corgi:https://registry.npmjs.org/http-errors cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/debug 324ms (cache updated)
+101 silly packumentCache corgi:https://registry.npmjs.org/debug set size:undefined disposed:false
+102 silly inflate node_modules/influx
+103 silly packumentCache corgi:https://registry.npmjs.org/influx cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/engine.io 339ms (cache updated)
+105 silly packumentCache corgi:https://registry.npmjs.org/engine.io set size:undefined disposed:false
+106 silly inflate node_modules/inherits
+107 silly packumentCache corgi:https://registry.npmjs.org/inherits cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/escape-html 302ms (cache updated)
+109 silly packumentCache corgi:https://registry.npmjs.org/escape-html set size:undefined disposed:false
+110 silly inflate node_modules/jquery
+111 silly packumentCache corgi:https://registry.npmjs.org/jquery cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/inherits 228ms (cache updated)
+113 silly packumentCache corgi:https://registry.npmjs.org/inherits set size:undefined disposed:false
+114 silly inflate node_modules/lodash
+115 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/etag 298ms (cache updated)
+117 silly packumentCache corgi:https://registry.npmjs.org/etag set size:undefined disposed:false
+118 silly inflate node_modules/mime
+119 silly packumentCache corgi:https://registry.npmjs.org/mime cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/fresh 298ms (cache updated)
+121 silly packumentCache corgi:https://registry.npmjs.org/fresh set size:undefined disposed:false
+122 silly inflate node_modules/mime-db
+123 silly packumentCache corgi:https://registry.npmjs.org/mime-db cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/ms 329ms (cache updated)
+125 silly packumentCache corgi:https://registry.npmjs.org/ms set size:undefined disposed:false
+126 silly inflate node_modules/mime-types
+127 silly packumentCache corgi:https://registry.npmjs.org/mime-types cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/http-errors 286ms (cache updated)
+129 silly packumentCache corgi:https://registry.npmjs.org/http-errors set size:undefined disposed:false
+130 silly inflate node_modules/mime-types/node_modules/mime-db
+131 silly packumentCache corgi:https://registry.npmjs.org/mime-db cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/engine.io-parser 340ms (cache updated)
+133 silly packumentCache corgi:https://registry.npmjs.org/engine.io-parser set size:undefined disposed:false
+134 silly inflate node_modules/ms
+135 silly packumentCache corgi:https://registry.npmjs.org/ms cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/influx 300ms (cache updated)
+137 silly packumentCache corgi:https://registry.npmjs.org/influx set size:undefined disposed:false
+138 silly inflate node_modules/negotiator
+139 silly packumentCache corgi:https://registry.npmjs.org/negotiator cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/gridstack 369ms (cache updated)
+141 silly packumentCache corgi:https://registry.npmjs.org/gridstack set size:undefined disposed:false
+142 silly inflate node_modules/node-red-contrib-influxdb
+143 silly packumentCache corgi:https://registry.npmjs.org/node-red-contrib-influxdb cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/ms 68ms (cache hit)
+145 silly packumentCache corgi:https://registry.npmjs.org/ms set size:21167 disposed:false
+146 silly inflate node_modules/node-red-dashboard
+147 silly packumentCache corgi:https://registry.npmjs.org/node-red-dashboard cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/negotiator 64ms (cache hit)
+149 silly packumentCache corgi:https://registry.npmjs.org/negotiator set size:17698 disposed:false
+150 silly inflate node_modules/object-assign
+151 silly packumentCache corgi:https://registry.npmjs.org/object-assign cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/mime 307ms (cache updated)
+153 silly packumentCache corgi:https://registry.npmjs.org/mime set size:undefined disposed:false
+154 silly inflate node_modules/on-finished
+155 silly packumentCache corgi:https://registry.npmjs.org/on-finished cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 1986ms (cache updated)
+157 silly packumentCache corgi:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+158 silly inflate node_modules/on-headers
+159 silly packumentCache corgi:https://registry.npmjs.org/on-headers cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/mime-types 316ms (cache updated)
+161 silly packumentCache corgi:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+162 silly inflate node_modules/parseurl
+163 silly packumentCache corgi:https://registry.npmjs.org/parseurl cache-miss
+164 http fetch GET 200 https://registry.npmjs.org/mime-db 315ms (cache updated)
+165 silly packumentCache corgi:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+166 silly inflate node_modules/range-parser
+167 silly packumentCache corgi:https://registry.npmjs.org/range-parser cache-miss
+168 http fetch GET 200 https://registry.npmjs.org/mime-db 330ms (cache updated)
+169 silly packumentCache corgi:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+170 silly inflate node_modules/safe-buffer
+171 silly packumentCache corgi:https://registry.npmjs.org/safe-buffer cache-miss
+172 http fetch GET 200 https://registry.npmjs.org/jquery 346ms (cache updated)
+173 silly packumentCache corgi:https://registry.npmjs.org/jquery set size:undefined disposed:false
+174 silly inflate node_modules/send
+175 silly packumentCache corgi:https://registry.npmjs.org/send cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/lodash 353ms (cache updated)
+177 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+178 silly inflate node_modules/send/node_modules/encodeurl
+179 silly packumentCache corgi:https://registry.npmjs.org/encodeurl cache-miss
+180 http fetch GET 200 https://registry.npmjs.org/object-assign 296ms (cache updated)
+181 silly packumentCache corgi:https://registry.npmjs.org/object-assign set size:undefined disposed:false
+182 silly inflate node_modules/send/node_modules/ms
+183 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+184 silly inflate node_modules/serve-static
+185 silly packumentCache corgi:https://registry.npmjs.org/serve-static cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/node-red-dashboard 315ms (cache updated)
+187 silly packumentCache corgi:https://registry.npmjs.org/node-red-dashboard set size:undefined disposed:false
+188 silly inflate node_modules/setprototypeof
+189 silly packumentCache corgi:https://registry.npmjs.org/setprototypeof cache-miss
+190 http fetch GET 200 https://registry.npmjs.org/encodeurl 87ms (cache hit)
+191 silly packumentCache corgi:https://registry.npmjs.org/encodeurl set size:2943 disposed:false
+192 silly inflate node_modules/socket.io
+193 silly packumentCache corgi:https://registry.npmjs.org/socket.io cache-miss
+194 http fetch GET 200 https://registry.npmjs.org/on-headers 270ms (cache updated)
+195 silly packumentCache corgi:https://registry.npmjs.org/on-headers set size:undefined disposed:false
+196 silly inflate node_modules/socket.io/node_modules/debug
+197 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/range-parser 262ms (cache updated)
+199 silly packumentCache corgi:https://registry.npmjs.org/range-parser set size:undefined disposed:false
+200 silly inflate node_modules/socket.io/node_modules/ms
+201 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+202 silly inflate node_modules/socket.io-adapter
+203 silly packumentCache corgi:https://registry.npmjs.org/socket.io-adapter cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/safe-buffer 262ms (cache updated)
+205 silly packumentCache corgi:https://registry.npmjs.org/safe-buffer set size:undefined disposed:false
+206 silly inflate node_modules/socket.io-adapter/node_modules/debug
+207 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/parseurl 271ms (cache updated)
+209 silly packumentCache corgi:https://registry.npmjs.org/parseurl set size:undefined disposed:false
+210 silly inflate node_modules/socket.io-adapter/node_modules/ms
+211 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+212 silly inflate node_modules/socket.io-parser
+213 silly packumentCache corgi:https://registry.npmjs.org/socket.io-parser cache-miss
+214 http fetch GET 200 https://registry.npmjs.org/on-finished 293ms (cache updated)
+215 silly packumentCache corgi:https://registry.npmjs.org/on-finished set size:undefined disposed:false
+216 silly inflate node_modules/socket.io-parser/node_modules/debug
+217 silly packumentCache corgi:https://registry.npmjs.org/debug cache-miss
+218 http fetch GET 200 https://registry.npmjs.org/send 265ms (cache updated)
+219 silly packumentCache corgi:https://registry.npmjs.org/send set size:undefined disposed:false
+220 silly inflate node_modules/socket.io-parser/node_modules/ms
+221 silly packumentCache corgi:https://registry.npmjs.org/ms cache-hit
+222 silly inflate node_modules/statuses
+223 silly packumentCache corgi:https://registry.npmjs.org/statuses cache-miss
+224 http fetch GET 200 https://registry.npmjs.org/debug 52ms (cache hit)
+225 silly packumentCache corgi:https://registry.npmjs.org/debug set size:73827 disposed:false
+226 silly inflate node_modules/toidentifier
+227 silly packumentCache corgi:https://registry.npmjs.org/toidentifier cache-miss
+228 http fetch GET 200 https://registry.npmjs.org/debug 49ms (cache hit)
+229 silly packumentCache corgi:https://registry.npmjs.org/debug set size:73827 disposed:false
+230 silly packumentCache corgi:https://registry.npmjs.org/debug dispose
+231 silly inflate node_modules/undici-types
+232 silly packumentCache corgi:https://registry.npmjs.org/undici-types cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/debug 46ms (cache hit)
+234 silly packumentCache corgi:https://registry.npmjs.org/debug set size:73827 disposed:true
+235 silly packumentCache corgi:https://registry.npmjs.org/debug dispose
+236 silly inflate node_modules/vary
+237 silly packumentCache corgi:https://registry.npmjs.org/vary cache-miss
+238 http fetch GET 200 https://registry.npmjs.org/serve-static 297ms (cache updated)
+239 silly packumentCache corgi:https://registry.npmjs.org/serve-static set size:undefined disposed:false
+240 silly inflate node_modules/ws
+241 silly packumentCache corgi:https://registry.npmjs.org/ws cache-miss
+242 http fetch GET 200 https://registry.npmjs.org/@influxdata%2finfluxdb-client 2384ms (cache updated)
+243 silly packumentCache corgi:https://registry.npmjs.org/@influxdata%2finfluxdb-client set size:undefined disposed:false
+244 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-influxdb 710ms (cache updated)
+245 silly packumentCache corgi:https://registry.npmjs.org/node-red-contrib-influxdb set size:undefined disposed:false
+246 http fetch GET 200 https://registry.npmjs.org/setprototypeof 353ms (cache updated)
+247 silly packumentCache corgi:https://registry.npmjs.org/setprototypeof set size:undefined disposed:false
+248 http fetch GET 200 https://registry.npmjs.org/socket.io 355ms (cache updated)
+249 silly packumentCache corgi:https://registry.npmjs.org/socket.io set size:undefined disposed:false
+250 http fetch GET 200 https://registry.npmjs.org/statuses 288ms (cache updated)
+251 silly packumentCache corgi:https://registry.npmjs.org/statuses set size:undefined disposed:false
+252 http fetch GET 200 https://registry.npmjs.org/toidentifier 251ms (cache updated)
+253 silly packumentCache corgi:https://registry.npmjs.org/toidentifier set size:undefined disposed:false
+254 http fetch GET 200 https://registry.npmjs.org/vary 249ms (cache updated)
+255 silly packumentCache corgi:https://registry.npmjs.org/vary set size:undefined disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/socket.io-adapter 306ms (cache updated)
+257 silly packumentCache corgi:https://registry.npmjs.org/socket.io-adapter set size:undefined disposed:false
+258 http fetch GET 200 https://registry.npmjs.org/socket.io-parser 305ms (cache updated)
+259 silly packumentCache corgi:https://registry.npmjs.org/socket.io-parser set size:undefined disposed:false
+260 http fetch GET 200 https://registry.npmjs.org/undici-types 262ms (cache updated)
+261 silly packumentCache corgi:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+262 http fetch GET 200 https://registry.npmjs.org/ws 295ms (cache updated)
+263 silly packumentCache corgi:https://registry.npmjs.org/ws set size:undefined disposed:false
+264 silly idealTree buildDeps
+265 silly fetch manifest node-red-contrib-socketio@1.1.0
+266 silly packumentCache full:https://registry.npmjs.org/node-red-contrib-socketio cache-miss
+267 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-socketio 201ms (cache miss)
+268 silly packumentCache full:https://registry.npmjs.org/node-red-contrib-socketio set size:undefined disposed:false
+269 silly placeDep ROOT node-red-contrib-socketio@1.1.0 OK for: node-red-project@0.0.1 want: 1.1.0
+270 silly reify moves {}
+271 silly tarball no local data for node-red-contrib-socketio@https://registry.npmjs.org/node-red-contrib-socketio/-/node-red-contrib-socketio-1.1.0.tgz. Extracting by manifest.
+272 http fetch GET 200 https://registry.npmjs.org/node-red-contrib-socketio/-/node-red-contrib-socketio-1.1.0.tgz 234ms (cache miss)
+273 silly ADD node_modules/node-red-contrib-socketio
+274 verbose cwd /data
+275 verbose os Linux 5.15.167.4-microsoft-standard-WSL2
+276 verbose node v22.12.0
+277 verbose npm  v10.9.0
+278 verbose exit 0
+279 info ok
