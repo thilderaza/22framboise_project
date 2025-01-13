@@ -1,5 +1,20 @@
 # 22framboise_project
 
+## Docker
+
+Aller dans le dossier /cloud puis : 
+
+- Pour démarrer : 
+``docker-compose run``
+
+
+- Pour stopper : 
+``docker-compose down``
+
+- Si l'un des Dockerfiles a été modifier :
+
+``docker-compose build``
+
 ## Node
 
 - node-red-contrib-socketio
@@ -8,7 +23,3 @@
 - node-red-dashboard
 - node-red-node-ui-table
 
-Command : 
-
-pip install python-socketio
-pip install eventlet  # Serveur basé sur Eventlet
