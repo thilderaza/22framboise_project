@@ -11,8 +11,7 @@ Aller dans le dossier /cloud puis :
 - Pour stopper : 
 ``docker-compose down``
 
-- Si l'un des Dockerfiles a été modifier :
-
+- Si l'un des Dockerfiles a été modifié :
 ``docker-compose build``
 
 ## Node
