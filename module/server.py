@@ -28,12 +28,29 @@ async def update_mesures(websocket):
             print(f"Connexion fermée pour le client {client.remote_address}")
             connected_clients.remove(client)  # Supprime les connexions fermées
 
+def save_seuils(data):
+    global seuils
+    seuils = {d["id_boitier"]:d["seuil_irrigation"] for d in data}
+    with open("seuils.json", "w") as file:
+        file.write(json.dumps(seuils))
+    return seuils
+
+seuils = {}
+
+def get_seuils():
+    global seuils
+    with open("seuils.json", "r") as file:
+        seuils = json.load(file)
+    return seuils
 
 async def handler(websocket, path):
     """
     Gestionnaire pour chaque client connecté.
     """
     global cloud
+    global seuils
+
+    seuils = get_seuils()
     print(f"Client connecté : {websocket.remote_address}")
     connected_clients.add(websocket)
     try:
@@ -48,10 +65,12 @@ async def handler(websocket, path):
                 cloud = websocket
                 if message.get("message") == "maj":
                     await update_mesures(websocket)
+                elif message.get("message") == "maj_seuils":
+                    seuils = save_seuils(message.get("data"))
                 else:
                     await websocket.send(json.dumps({"id":"tour", "message":"requête non reconnue"}))
             elif message.get("id") == "boitier":
-                if message["message"]["value1"] < 500:
+                if message["message"]["value1"] < seuils.get(message["message"]["id_boitier"], 500):
                     await websocket.send(json.dumps({"id":"tour", "message": "led_on"}))
                 else:
                     await websocket.send(json.dumps({"id":"tour", "message": "led_off"}))
