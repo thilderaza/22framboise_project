@@ -17,11 +17,9 @@
             },
             "dialog": {
                 "export": {
-                    "pretty": false,
-                    "json-view": false
+                    "pretty": false
                 }
             }
-        },
-        "menu-menu-item-sidebar": false
+        }
     }
 }
