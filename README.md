@@ -5,7 +5,7 @@
 Aller dans le dossier /cloud puis : 
 
 - Pour démarrer : 
-``docker-compose run``
+``docker-compose up``
 
 
 - Pour stopper : 
