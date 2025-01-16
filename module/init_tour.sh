@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Variables
-SERVICE_NAME="websocket-client.service"
-SCRIPT_PATH="/home/pi/Documents/client.py"  # Path to your Python script
+SERVICE_NAME="websocket-server.service"
+SCRIPT_PATH="/home/pi/Documents/server.py"  # Path to your Python script
 PYTHON_PATH="/usr/bin/python3"              # Path to Python executable
 SERVICE_FILE="/etc/systemd/system/$SERVICE_NAME"
 RUN_AS_USER="pi"                            # The user to run the service as
@@ -18,11 +18,13 @@ echo "Création du fichier de service systemd : $SERVICE_FILE"
 
 cat <<EOL > $SERVICE_FILE
 [Unit]
-Description=Client WebSocket Python
+Description=Serveur WebSocket Python
 After=network-online.target
 Wants=network-online.target
 
 [Service]
+PrivateTmp=false
+WorkingDirectory=/home/pi/Documents
 ExecStart=$PYTHON_PATH $SCRIPT_PATH
 Restart=always
 RestartSec=10
